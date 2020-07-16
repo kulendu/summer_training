@@ -1,0 +1,531 @@
+body{
+    background-image: url(images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+.bg-text{
+    color: white;
+    text-align: center;
+    padding: 350px ; 
+    background-attachment: fixed; 
+}
+.scroll-button{
+    margin-top: 50px;
+    margin-left: 930px;
+    height: 50px;
+    width: 50px;
+}
+
+#about-box{
+    background-color: rgb(148, 148, 148);
+    padding: 50px 200px 50px 200px;
+    margin-top: 60px;
+    box-shadow: aqua;
+    text-align: center;
+}
+
+#what-container{
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.what-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+#what-box{
+    padding: 50px 200px 50px 200px;
+    background-color: #092532;
+    text-align: center;
+    color: white;
+}
+
+#how-container{
+    background-image: url(images/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.how-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+#how-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+#piechart{
+    text-align: center;
+    padding: 05px 550px;
+    
+}
+
+#solution-container{
+    background-image: url(images/bg3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.solution-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+.solution-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+.effective-container{
+    background-image: url(images/bg4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.effective-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+.effective-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.effective-img{
+    border-radius: 05%;
+}
+
+.response-rows{
+    padding: 30px 50px 30px 50px;    
+}
+
+
+.effects-container{
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.effects-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+.effects-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center
+}
+
+
+.novelty-container{
+    background-image: url(images/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.novelty-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+.novelty-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.obj-container{
+    background-image: url(images/bg3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.obj-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+.obj-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.goals-container{
+    background-image: url(images/bg4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.goals-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+.goals-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.plan-container{
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.plan-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+.plan-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.analysis-container{
+    background-image: url(images/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.analysis-h1{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+.analysis-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.roadmap-container{
+    background-image: url(images/bg3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.roadmap-h1{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+.roadmap-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.forecast-container{
+    background-image: url(images/bg4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.forecast-h1{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+.forecast-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.expdate-container{
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.expdate-h1{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+.expdate-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.conclusion-container{
+    background-image: url(images/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.conclusion-h1{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+.conclusion-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.future-container{
+    background-image: url(images/bg3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.future-h1{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+.future-box{
+    padding: 50px 200px 50px 200px;
+    background-color: white;
+    text-align: center;
+}
+
+
+footer{
+    /* padding-top: 100px;
+    color: white;
+    text-align: center;
+    background-image: url(images/takemaru-hirai-DxAV6se7QPM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px; */
+}
+
+
+
+
+/* responsive */
+@media (max-width:1028px){
+    body{
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+    }
+    .scroll-button{
+        margin-top: 260px;
+        margin-left: 190px;
+        height: 30px;
+        width: 30px;
+    }
+    .bg-text{
+        color: white;
+        text-align: center;
+        padding: 50px 50px; 
+        margin-top: 280px;
+        background-attachment: fixed; 
+    }
+
+    #about-box{
+        background-color: rgb(148, 148, 148);
+        padding: 40px 70px 30px 70px;
+        margin-top: 60px;
+        box-shadow: aqua;
+        text-align: center;
+        font-size: 80%;
+    }
+    #what-box{
+        padding: 50px 70px 50px 70px;
+        background-color: #092532;
+        text-align: center;
+        color: white;
+        font-size: 80%;
+    }
+    #how-box{
+        padding: 50px 70px 50px 70px;
+        background-color: white;
+        text-align: center;
+        color: black;
+        font-size: 80%;
+    }
+    .solution-box{
+        padding: 50px 70px 50px 70px;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        font-size: 80%;
+    }
+    .cards{
+        margin: 10px;
+        width: 100%; 
+        align-content: center;
+        flex: content;
+        flex-direction: column;
+    }
+    .effective-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .effects-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .novelty-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .obj-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .goals-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .plan-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .analysis-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    } 
+    .roadmap-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }  
+    .forecast-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .expdate-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .conclusion-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+    .future-box{
+        padding: 50px 70px 30px 70px;
+        background-color: white;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    #piechart{
+        text-align: center;
+        padding: 05px; 
+        /* margin-left: -450px; */
+        display: flex;
+        flex-direction: column;
+        box-sizing: 50px;
+        margin-left: -100px;
+    }
+    .table-team{
+        padding: 100px 70px;
+        /* font-size: 50%; */
+    }
+}
+
+
+.cards{
+    margin: 10px;
+    width: 100%; 
+    align-content: center;
+    flex: content;
+    flex-direction: column;
+}
+
+.team-btn{
+    align-items: center;
+    margin-top: 30px;
+}
+
