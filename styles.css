@@ -671,6 +671,10 @@ footer{
 
 .guide-box{
     text-align: center;
-    padding: 160px;
-    font-size: 90%;
+    padding-top: 140px;
+    font-size: 94%;
+}
+table{
+    font-size: 80%;
+    padding: 10px 300px;
 }
