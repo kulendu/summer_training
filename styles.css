@@ -8,11 +8,13 @@ body{
 .bg-text{
     color: white;
     text-align: center;
-    padding: 350px ; 
+    padding: 250px ; 
     background-attachment: fixed; 
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
 }
 .scroll-button{
-    margin-top: 50px;
+    margin-top: 75px;
     margin-left: 930px;
     height: 50px;
     width: 50px;
@@ -92,8 +94,8 @@ body{
     padding: 50px 200px 50px 200px;
     background-color: white;
     text-align: center;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 
@@ -152,8 +154,9 @@ body{
 
 .effects-box{
     padding: 50px 200px 50px 200px;
-    background-color: white;
-    text-align: center
+    background-color: #092532;
+    text-align: center;
+    color: white;
 }
 
 
@@ -173,7 +176,7 @@ body{
 
 .novelty-box{
     padding: 50px 200px 50px 200px;
-    background-color: white;
+    background-color: rgb(148, 148, 148);
     text-align: center;
 }
 
@@ -231,8 +234,9 @@ body{
 }
 .plan-box{
     padding: 50px 200px 50px 200px;
-    background-color: white;
+    background-color: #092532;
     text-align: center;
+    color: white;
 }
 
 
@@ -250,7 +254,7 @@ body{
 }
 .analysis-box{
     padding: 50px 200px 50px 200px;
-    background-color: white;
+    background-color: rgb(148, 148, 148);
     text-align: center;
 }
 
@@ -307,8 +311,9 @@ body{
 }
 .expdate-box{
     padding: 50px 200px 50px 200px;
-    background-color: white;
+    background-color: #092532;
     text-align: center;
+    color: white;
 }
 
 
@@ -327,8 +332,9 @@ body{
 }
 .conclusion-box{
     padding: 50px 200px 50px 200px;
-    background-color: white;
+    background-color: rgb(148, 148, 148);
     text-align: center;
+
 }
 
 
@@ -352,14 +358,14 @@ body{
 
 
 footer{
-    /* padding-top: 100px;
+    padding-top: 140px;
     color: white;
     text-align: center;
-    background-image: url(images/takemaru-hirai-DxAV6se7QPM-unsplash.jpg);
+    background-image: linear-gradient(#0F2027,#203A43,#2C5364);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 700px; */
+    height: 400px;
 }
 
 
@@ -377,7 +383,7 @@ footer{
         background-position:center;
     }
     .scroll-button{
-        margin-top: 260px;
+        margin-top: 170px;
         margin-left: 190px;
         height: 30px;
         width: 30px;
@@ -386,8 +392,9 @@ footer{
         color: white;
         text-align: center;
         padding: 50px 50px; 
-        margin-top: 280px;
+        margin-top: 100px;
         background-attachment: fixed; 
+        font-size: 50px;
     }
 
     #about-box{
@@ -405,6 +412,11 @@ footer{
         color: white;
         font-size: 80%;
     }
+    .what-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 70px 50px;
+    }
     #how-box{
         padding: 50px 70px 50px 70px;
         background-color: white;
@@ -412,13 +424,21 @@ footer{
         color: black;
         font-size: 80%;
     }
+    .how-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
+    }
     .solution-box{
         padding: 50px 70px 50px 70px;
         background-color: white;
         text-align: center;
-        display: flex;
-        flex-direction: row;
         font-size: 80%;
+    }
+    .solution-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
     }
     .cards{
         margin: 10px;
@@ -433,11 +453,21 @@ footer{
         text-align: center;
         font-size: 80%;
     }
+    .effective-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
+    }
     .effects-box{
         padding: 50px 70px 30px 70px;
         background-color: white;
         text-align: center;
         font-size: 80%;
+    }
+    .effects-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
     }
     .novelty-box{
         padding: 50px 70px 30px 70px;
@@ -445,17 +475,32 @@ footer{
         text-align: center;
         font-size: 80%;
     }
+    .novelty-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 160px 50px;
+    }
     .obj-box{
         padding: 50px 70px 30px 70px;
         background-color: white;
         text-align: center;
         font-size: 80%;
     }
+    .obj-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
+    }
     .goals-box{
         padding: 50px 70px 30px 70px;
         background-color: white;
         text-align: center;
         font-size: 80%;
+    }
+    .goals-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
     }
     .plan-box{
         padding: 50px 70px 30px 70px;
@@ -468,30 +513,60 @@ footer{
         background-color: white;
         text-align: center;
         font-size: 80%;
+    }
+    .analysis-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
     } 
+    .plan-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
+    }
     .roadmap-box{
         padding: 50px 70px 30px 70px;
         background-color: white;
         text-align: center;
         font-size: 80%;
     }  
+    .roadmap-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 50px 50px;
+    }
     .forecast-box{
         padding: 50px 70px 30px 70px;
         background-color: white;
         text-align: center;
         font-size: 80%;
     }
+    .forecast-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
+    }
     .expdate-box{
         padding: 50px 70px 30px 70px;
-        background-color: white;
+        background-color: #092532;
         text-align: center;
         font-size: 80%;
+    }
+    .expdate-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 110px 50px;
     }
     .conclusion-box{
         padding: 50px 70px 30px 70px;
         background-color: white;
         text-align: center;
         font-size: 80%;
+    }
+    .conclusion-h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 140px 50px;
     }
     .future-box{
         padding: 50px 70px 30px 70px;
@@ -513,6 +588,14 @@ footer{
         padding: 100px 70px;
         /* font-size: 50%; */
     }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 160px;
+        position: fixed;
+        margin-left: -07%;
+    }
+
 }
 
 
@@ -529,3 +612,56 @@ footer{
     margin-top: 30px;
 }
 
+
+
+/* body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+} */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-size: 80%;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  position: fixed;
+  padding-left: 95%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
