@@ -584,9 +584,9 @@ footer{
         box-sizing: 50px;
         margin-left: -100px;
     }
-    .table-team{
+    table{
         padding: 100px 70px;
-        /* font-size: 50%; */
+        font-size: 90%;
     }
 
     #main {
@@ -594,6 +594,11 @@ footer{
         padding: 160px;
         position: fixed;
         margin-left: -07%;
+    }
+    .guide-box{
+        text-align: center;
+        padding: 40px;
+        font-size: 90%;
     }
 
 }
@@ -603,8 +608,6 @@ footer{
     margin: 10px;
     width: 100%; 
     align-content: center;
-    flex: content;
-    flex-direction: column;
 }
 
 .team-btn{
@@ -664,4 +667,10 @@ footer{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.guide-box{
+    text-align: center;
+    padding: 160px;
+    font-size: 90%;
 }
